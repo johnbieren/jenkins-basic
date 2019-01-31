@@ -7,6 +7,8 @@ import hudson.security.*
 import com.redhat.jenkins.plugins.ci.*
 import com.redhat.jenkins.plugins.ci.messaging.*
 
+def logger = Logger.getLogger("")
+
 logger.info("Setup fedora-fedmsg Messaging Provider")
 FedMsgMessagingProvider fedmsg = new FedMsgMessagingProvider("fedora-fedmsg", "tcp://hub.fedoraproject.org:9940", "tcp://172.19.4.24:9941", "org.fedoraproject");
 GlobalCIConfiguration.get().addMessageProvider(fedmsg)
