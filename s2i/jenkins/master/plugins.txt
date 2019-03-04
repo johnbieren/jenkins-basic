@@ -47,12 +47,14 @@ github:1.29.4
 github-api:1.95
 github-branch-source:2.4.2
 github-organization-folder:1.6
+github-pr-comment-build:2.0
 gitlab-plugin:1.5.11
 greenballs:1.15
 handlebars:1.1.1
 handy-uri-templates-2-api:2.1.6-1.0
 htmlpublisher:1.18
 icon-shim:2.0.3
+influxdb:1.20.4
 instant-messaging:1.35
 ircbot:2.30
 jackson2-api:2.9.8
@@ -132,4 +134,4 @@ workflow-scm-step:2.7
 workflow-step-api:2.19
 workflow-support:3.2
 ws-cleanup:0.37
-xunit:2.3.2
+xunit:2.3.3
