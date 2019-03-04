@@ -17,7 +17,7 @@ properties(
         [
                 buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '2', daysToKeepStr: '', numToKeepStr: '2')),
                 parameters([
-                    string(name: 'CI_MESSAGE',
+                    string(name: 'CI_MESSAGEf',
                     description: 'The fedmsg',
                     defaultValue: '{}'),
                 ])
