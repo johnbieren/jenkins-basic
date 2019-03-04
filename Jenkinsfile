@@ -33,7 +33,7 @@ node('master') {
                 //ciStage('example-stage') {
                     env.topicPrefix = 'abc'
                     env.effortName = 'test'
-                    env.teamName = 'test'
+                    env.teamName = 'tes2t'
                     env.teamEmail = 'test'
                     env.pipelineId = 'test'
                     sendPipelineStatusMsg('running')
