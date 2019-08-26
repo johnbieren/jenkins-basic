@@ -40,7 +40,7 @@ node('master') {
                     
                 }
             } catch (e) {
-                println("error is " + e)
+                println("errfor is " + e)
                 throw e
             }
         }
